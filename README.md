@@ -2,7 +2,7 @@
 
 Shell scripts for some app archetypes for `node_modules/.bin`
 
-See package.json
+See https://github.com/evanx/app-bin/blob/master/package.json
 ```json
 "bin": {
    "git-commit": "./bin/git-commit.sh",
