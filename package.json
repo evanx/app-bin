@@ -4,8 +4,8 @@
   "description": "bin scripts for some app archetypes",
   "main": "index.js",
   "scripts": {
-      "git-commit": "./bin/git-commit.sh",
-      "npm-publish": "./bin/npm-publish.sh"
+      "commit": "./bin/git-commit.sh",
+      "publish": "./bin/npm-publish.sh"
   },
   "author": "@evanxsummers",
   "license": "ISC",
