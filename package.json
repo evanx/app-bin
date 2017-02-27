@@ -16,8 +16,9 @@
   "bin": {
      "git-commit": "./bin/git-commit.sh",
      "npm-publish": "./bin/npm-publish.sh",
-     "docker-rebuild": "./bin/docker-rebuild.sh",
-     "docker-redeploy": "./bin/docker-redeploy.sh",
+     "docker-build": "./bin/docker-build.sh",
+     "docker-push": "./bin/docker-push.sh",
+     "docker-deploy": "./bin/docker-deploy.sh",
      "docker-rm": "./bin/docker-rm.sh",
      "docker-network-rm": "./bin/docker-network-rm.sh",
      "docker-inspect-ip": "./bin/docker-inspect-ip.sh",
