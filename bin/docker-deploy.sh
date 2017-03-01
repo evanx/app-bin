@@ -10,3 +10,4 @@ docker run --name $name -d \
   --restart unless-stopped \
   -e NODE_ENV=$NODE_ENV \
   $name
+docker logs -f $name
