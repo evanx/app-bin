@@ -1,6 +1,6 @@
 {
   "name": "app-bin",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "bin scripts for some app archetypes",
   "main": "index.js",
   "scripts": {
