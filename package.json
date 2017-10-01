@@ -1,6 +1,6 @@
 {
   "name": "app-bin",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "bin scripts for some app archetypes",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
   "bin": {
      "git-commit": "./bin/git-commit.sh",
      "npm-publish": "./bin/npm-publish.sh",
+     "npm-info-latest": "./bin/npm-info-latest.sh",
      "docker-build": "./bin/docker-build.sh",
      "docker-push": "./bin/docker-push.sh",
      "docker-deploy": "./bin/docker-deploy.sh",

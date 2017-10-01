@@ -1,14 +1,11 @@
 
-message='initial'
-if [ $# -eq 1 ]
-then
-  message="$1"
-elif [ $# -gt 1 ]
+if [ $# -ne 1 ]
 then
   exit 1
 fi
 
-  git add -A
-  git commit -m 'initial'
-  git push
+message="$1"
+git add -A
+git commit -m "$message"
+git push
 
