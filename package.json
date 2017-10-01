@@ -1,11 +1,10 @@
 {
   "name": "app-bin",
-  "version": "0.1.16",
+  "version": "0.1.18",
   "description": "bin scripts for some app archetypes",
   "main": "index.js",
   "scripts": {
-      "commit": "./bin/git-commit.sh",
-      "publish": "./bin/npm-publish.sh"
+      "commit": "./bin/git-commit.sh"
   },
   "author": "@evanxsummers",
   "license": "ISC",
